@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter1", "Chapter1", "{CD16B1BC-08BD-433F-8E1F-0E44B0231DB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HOONS.TDD.Chapter1.SampleExample", "HOONS.TDD.Chapter1.SampleExample\HOONS.TDD.Chapter1.SampleExample.csproj", "{2E1E06F5-5DA0-4E3B-9A06-D54A9AA32A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HOONS.TDD.Chapter1.SampleExample.Test", "HOONS.TDD.Chapter1.SampleExample.Test\HOONS.TDD.Chapter1.SampleExample.Test.csproj", "{8655F991-E36A-4D1E-BF95-A37BE5705956}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter2", "Chapter2", "{25C322AC-2A22-4EE5-B790-4881BF0873D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HOONS.TDD.Chapter2.TaxCalculator", "HOONS.TDD.Chapter2.TaxCalculator\HOONS.TDD.Chapter2.TaxCalculator.csproj", "{3BEDF21C-D913-4D86-A3AC-10C9C6FF5B1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HOONS.TDDChapter2.TaxCalculator.Test", "HOONS.TDDChapter2.TexCalculator.Test\HOONS.TDDChapter2.TaxCalculator.Test.csproj", "{4B03C018-200C-4A77-B624-ECD0A1E4DBFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E1E06F5-5DA0-4E3B-9A06-D54A9AA32A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1E06F5-5DA0-4E3B-9A06-D54A9AA32A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1E06F5-5DA0-4E3B-9A06-D54A9AA32A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1E06F5-5DA0-4E3B-9A06-D54A9AA32A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8655F991-E36A-4D1E-BF95-A37BE5705956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8655F991-E36A-4D1E-BF95-A37BE5705956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8655F991-E36A-4D1E-BF95-A37BE5705956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8655F991-E36A-4D1E-BF95-A37BE5705956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BEDF21C-D913-4D86-A3AC-10C9C6FF5B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BEDF21C-D913-4D86-A3AC-10C9C6FF5B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BEDF21C-D913-4D86-A3AC-10C9C6FF5B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEDF21C-D913-4D86-A3AC-10C9C6FF5B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B03C018-200C-4A77-B624-ECD0A1E4DBFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B03C018-200C-4A77-B624-ECD0A1E4DBFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B03C018-200C-4A77-B624-ECD0A1E4DBFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B03C018-200C-4A77-B624-ECD0A1E4DBFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E1E06F5-5DA0-4E3B-9A06-D54A9AA32A08} = {CD16B1BC-08BD-433F-8E1F-0E44B0231DB2}
+		{8655F991-E36A-4D1E-BF95-A37BE5705956} = {CD16B1BC-08BD-433F-8E1F-0E44B0231DB2}
+		{3BEDF21C-D913-4D86-A3AC-10C9C6FF5B1A} = {25C322AC-2A22-4EE5-B790-4881BF0873D5}
+		{4B03C018-200C-4A77-B624-ECD0A1E4DBFE} = {25C322AC-2A22-4EE5-B790-4881BF0873D5}
+	EndGlobalSection
+EndGlobal
