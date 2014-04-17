@@ -13,11 +13,36 @@ public class StubTaxRepository : ITaxRepository
     {
         return TaxRate;
     }
+
+}
+public class StubTaxRepositoryAbstract : ATaxRepository
+{
+    public int TaxRate { get; set; }
+    public override int GetTaxRate(TaxYear taxYear)
+    {
+        return TaxRate;
+    }
+
 }
 
 [TestFixture]
 public class TaxCalculatorTest
 {
+    [Test]
+    public void When2013_ShouldReturn90PercentUsingAbstractClass()
+    {
+        //Arrange
+        var taxRepo = new StubTaxRepository { TaxRate = 10 };
+        var taxHelper = new TaxHelper(TaxYear.Year2013, taxRepo);
+        const int salaryExpected = 900;
+
+        //Act
+        var salaryResulted = taxHelper.Calculate(1000);
+
+        //Assert
+        Assert.That(salaryResulted, Is.EqualTo(salaryExpected));
+    }
+
     [Test]
     public void When2013_ShouldReturn90Percent()
     {

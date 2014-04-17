@@ -15,4 +15,14 @@ namespace HOONS.TDD.Chapter2.TaxCalculator
             return -1;
         }
     }
+
+    public abstract class ATaxRepository
+    {
+        public virtual int GetTaxRate(TaxYear taxYear)
+        {
+            //ToDo
+            return -1;
+        }
+
+    }
 }
